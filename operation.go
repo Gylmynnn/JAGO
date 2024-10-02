@@ -44,4 +44,19 @@ func main() {
 	g = !g
 	fmt.Println(g)
 
+  //#4 boolean operation
+
+  finalScore := 90
+  presence := 80
+
+  passFinalScore := finalScore > 80
+  passPresence := presence > 80
+
+  pass := passFinalScore && passPresence
+  pass2 := passFinalScore || passPresence
+
+  fmt.Println(pass)
+  fmt.Println(pass2)
+  
+
 }
