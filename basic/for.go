@@ -13,12 +13,16 @@ func main() {
 		counter++
 	}
 
+  // for p := 1; p <= 2; p++ {
+  //   fmt.Print(p)
+  // }
+
   //#2
-	for i := 1; i <= 10; i++ {
-		for g := 1; g < i; g++ {
-			fmt.Print("*")
+	for i := 1; i <= 3; i++ {
+		for g := 1; g <= i; g++ {
+			fmt.Print(g)
 		}
-    fmt.Println("")
+     fmt.Println("")
 	}
 
   //#3
